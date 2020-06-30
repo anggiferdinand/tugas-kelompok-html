@@ -1,0 +1,158 @@
+.header{
+    height:90px;
+    top:0;
+    z-index:10;
+    position:fixed;
+    background-color:rgba(34,49, 52, 0.9);
+    opacity:0.7;
+    width:100%;
+}
+.header-logo{
+    float:left;
+    font-size:30px;
+    padding-top:30px;
+    padding-left:22px;
+    color:rgba(255, 255, 255, 0.8);
+    opacity:1;
+}
+.header-list li{
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    padding-right:54px;
+    padding-top:42px;
+}
+li{
+    list-style:none;
+}
+.top-wrapper{
+    background-image:url(https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-0/p640x640/32676633_10160378506580026_9154359385651150848_o.jpg?_nc_cat=107&_nc_sid=dd9801&_nc_eui2=AeGMIN70Dl4K8GbukM-HouGuXouKWvET_41ei4pa8RP_jZe9C-nz08a8ZxZ58fyFsKY&_nc_ohc=2it2V4uRaUYAX8ISSsR&_nc_ht=scontent-sin6-1.xx&_nc_tp=6&oh=12317e6598c259c0e019ecafac827a97&oe=5F17AB60);
+    background-size:cover;
+    padding:180px 0 100px 0;
+    Text-align:center;
+    color:white;
+    height:522px;
+    background-size:cover;
+    width:100%;
+  }
+.top-wrapper container{
+    width:1170px;
+    margin:0 auto;
+}
+.top-wrapper h1 {
+    color:white;
+    background-color:black;
+    font-size:35px;
+
+/*generalisasi container*/
+}
+.main-wrapper{
+    padding-top:24px;
+    height:300px;
+
+}
+.heading-h2{
+    font-family: Puritan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-bottom: 21px;
+    color: #B0413E;
+    margin:0 auto;
+}
+
+.food{
+float:left;
+margin:0, 180px,0,0;
+}
+
+img {
+    width:240px;
+    height:240px;
+    padding:21px,180px,17px,180px;
+    margin-right :180px;
+    margin-left:20px;    
+}
+.food P{
+    font-size:24px;
+    margin-top:30px;
+    margin-left:20px;
+  }
+
+/*generalisasi btn (cek bila ada yg sama)*/
+
+.btn {
+    display: inline-block;
+}
+
+/*heading berjarak 141px dari main*/
+.heading {
+    text-align: center;
+    color: #333333;
+    padding-top: 141px;
+    padding-bottom: 13px;
+    margin-top:20px;
+}
+
+.heading h2{
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    font-family: Puritan;
+    text-align: center;   
+}
+
+.message-wrapper {
+    padding-bottom: 44px;
+    text-align: center;
+    height:400px;
+    padding-top:100px;
+}
+
+.message-wrapper container {
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    padding: 0px 15px;
+    
+}
+
+.message {
+    background-color: #219653;
+    padding: 32px 320px;
+    box-shadow: 0 9px #27ae60;
+    cursor: pointer;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    font-family: Playfair Display SC;
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+}
+
+
+/*animasi tombol subscribe*/
+.message:active {
+    position: relative;
+    top: 9px;
+    box-shadow: none;
+}
+
+footer{
+    background-color:black;
+    width:100%;
+    height:130px;
+}
+.footer-list{
+    float:left;
+  }
+  .footer-list li {                  
+    padding-bottom: 20px;
+  }
